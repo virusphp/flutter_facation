@@ -9,9 +9,7 @@ final ButtonStyle flatButtonStyle = TextButton.styleFrom(
   // minimumSize: Size(_width, _height),
   backgroundColor: Colors.grey,
   padding: EdgeInsets.all(0),
-  color: Colors.white,
-  fontWeight: FontWeight.bold,
-  fontFamily: 'OpenSans',
+  shadowColor: Colors.white,
 );
 
 final kLabelStyle = TextStyle(
